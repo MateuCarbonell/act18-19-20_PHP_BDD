@@ -14,7 +14,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         header("Location: intranet.php");
         exit();
     } else {
-        echo "<div class='alert alert-danger'>Error al registrar al usuario</div>";
+        echo "<div class='alert alert-danger'>Error al registrar al usuario, ya existe</div>";
     }
 }
 ?>
